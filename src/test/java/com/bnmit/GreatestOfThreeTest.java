@@ -29,6 +29,6 @@ public class GreatestOfThreeTest {
 
     @Test
     void testNegativeNumbers() {
-        assertEquals(-5, GreatestOfThree.findGreatest(-10, 5, -20));
+        assertEquals(-5, GreatestOfThree.findGreatest(-10, -5, -20));
     }
 }
